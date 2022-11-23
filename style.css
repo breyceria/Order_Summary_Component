@@ -81,11 +81,16 @@ main{
 .summarycard__plan {
     display: flex;
     background-color: var(--clr-primary-verpaleblue);
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 1rem .5rem;
     border-radius: .5rem;
   
+}
+
+.noteandpriceholder {
+    display: flex;
+    gap: 1rem;
 }
 .summarycard__planterms {
     font-weight: 900;
